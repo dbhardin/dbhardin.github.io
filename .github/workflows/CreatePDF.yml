@@ -1,5 +1,7 @@
 name: Create PDF File
 
+on:
+  workflow_dispatch:
 
 jobs:
   convert_to_PDF:
